@@ -1,11 +1,7 @@
 [package]
 name = "web-extensions-sys"
 version = "0.4.1"
-authors = [
-  "Roman Volosatovs <rvolosatovs@riseup.net>",
-  "Pauan <pcxunlimited@gmail.com>",
-  "Markus Kohlhase <markus.kohlhase@slowtec.de>",
-]
+authors = ["Roman Volosatovs <rvolosatovs@riseup.net>", "Pauan <pcxunlimited@gmail.com>", "Markus Kohlhase <markus.kohlhase@slowtec.de>"]
 edition = "2021"
 description = "This crate provides WebExtension API WASM bindings"
 repository = "https://github.com/web-extensions-rs/web-extensions-sys"
@@ -18,9 +14,9 @@ categories = ["external-ffi-bindings", "wasm"]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-js-sys = "0.3.61"
-wasm-bindgen = "0.2.84"
-wasm-bindgen-futures = "0.4.34"
+js-sys = "0.3"
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4"
 
 [features]
 default = []
